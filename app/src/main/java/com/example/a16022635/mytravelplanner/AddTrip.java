@@ -15,6 +15,7 @@ public class AddTrip extends AppCompatActivity {
 
     ImageView imageToUpload;
     Button btnUpload;
+    Button btnSaveTrip;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class AddTrip extends AppCompatActivity {
 
         imageToUpload = (ImageView) findViewById(R.id.imageToUpload);
         btnUpload = (Button) findViewById(R.id.buttonUpload);
+        btnSaveTrip = (Button) findViewById(R.id.btnSaveTrip);
 
         btnUpload.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +35,9 @@ public class AddTrip extends AppCompatActivity {
                 startActivityForResult(galleryIntent, RESULT_LOAD_IMAGE);
             }
         });
+
+        
+
     }
 
     @Override
