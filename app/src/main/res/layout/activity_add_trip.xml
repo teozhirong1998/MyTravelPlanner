@@ -33,7 +33,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tvName"
+                android:id="@+id/tvTripTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -42,32 +42,32 @@
                 android:textSize="17dp" />
 
             <EditText
-                android:id="@+id/etName"
+                android:id="@+id/etTripTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/tvDuration"
+                android:id="@+id/tvTripDuration"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="Trip Duration (Days)"
                 android:textColor="#000"
-                android:textSize="17dp"
-                android:gravity="center"/>
+                android:textSize="17dp" />
 
             <EditText
-                android:id="@+id/etDuration"
+                android:id="@+id/etTripDuration"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="number"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:inputType="number" />
 
             <TextView
-                android:id="@+id/tvPlace"
+                android:id="@+id/tvLocation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -76,7 +76,7 @@
                 android:textSize="17dp" />
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/etTripLocation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
